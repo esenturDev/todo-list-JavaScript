@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<script defer src="./js/script.js"></script>
+		<title>Todo List</title>
+	</head>
+	<body>
+		<div class="layout">
+			<header class="header">
+				<h1>Todo List</h1>
+			</header>
+			<main>
+				<!-- ! section 1 -->
+				<section class="section_1">
+					<div class="container">
+						<div class="content">
+							<!-- ? form -->
+							<form id="form">
+								<div class="task_inputs">
+									<label for="task_input_name">New Task:</label>
+									<input id="task_input_name" type="text" />
+								</div>
+								<div class="task_inputs">
+									<label for="task_input_deadline">Deadline:</label>
+									<input id="task_input_deadline" type="date" />
+								</div>
+							</form>
+							<!-- ? tasks -->
+							<div id="todo_list"></div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">By Elcho911</footer>
+		</div>
+	</body>
+</html>
